@@ -9,11 +9,11 @@
 
 	<title>Lemuel - Creative One Page Portfolio</title>
 
-	  <!-- OPENGRAPH META -->
-    <meta property="og:url" content="https://lemuellloren.github.io/">
-    <meta property="og:title" content="LEMUEL LLOREN WEBPAGE">
-    <meta property="og:description" content="Hello, I'm Lemuel Lloren a passionate designer & front end developer based in Davao City. I Love designing and developing websites as much I love to dance. I have been working in the field for more than 5 months & would Love to help you take your product to the next level.">
-    <meta property="og:image" content="https://lemuellloren.github.io/img\lempakz.png">
+	<!-- OPENGRAPH META -->
+	<meta property="og:url" content="https://lemuellloren.github.io/">
+	<meta property="og:title" content="LEMUEL LLOREN WEBPAGE">
+	<meta property="og:description" content="Hello, I'm Lemuel Lloren a passionate designer & front end developer based in Davao City. I Love designing and developing websites as much I love to dance. I have been working in the field for more than 5 months & would Love to help you take your product to the next level.">
+	<meta property="og:image" content="https://lemuellloren.github.io/img\lempakz.png">
 
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -114,7 +114,7 @@
 				<div class="row">
 					<div class="col-md-10  col-md-offset-1">
 						<div class="build title-page">
-							<h2 class="text-center">Who I Am</h2>
+							<h2 class="text-center wow slideInDown">Who I Am</h2>
 							<div class="line-title bg-primary"></div>
 						</div>
 					</div>
@@ -128,18 +128,19 @@
 							<div class="row">
 								<div class="col-md-3">
 									<div class="main-avatar text-center">
-										<div class="avatar img-thumbnail img-circle">
+										<div class="avatar img-thumbnail img-circle wow bounceIn">
 											<img src="img\me.jpg" alt="lemuel lloren" />
 										</div>
 									</div>
 
 								</div>
 								<div class="col-md-9">
-									<div class="about-content">
+									<div class="about-content wow slideInLeft">
 										<p>Hello, I'm Lemuel Lloren a passionate designer & front end developer based in Davao City. I Love designing and
 											developing websites as much I love to dance. I have been working in the field for more than 5 months & would Love
 											to help you take your product to the next level.</p>
-										<a href="#contact" class="btn btn-clear btn-lg border-color linear hire">Contact Me</a>
+										<a href="#contact" class="btn btn-clear btn-lg border-color linear hire">Contact Me</a> &nbsp;
+										<a href="#" class="btn btn-clear btn-lg border-color linear hire">Resume</a>
 									</div>
 								</div>
 							</div>
@@ -206,14 +207,14 @@
 				<div class="row">
 					<div class="col-md-10  col-md-offset-1">
 						<div class="build title-page">
-							<h2 class="text-center">My Work</h2>
+							<h2 class="text-center wow slideInDown">My Work</h2>
 							<div class="line-title bg-primary"></div>
 						</div>
 					</div>
 					<!-- end col -->
 				</div>
 				<!-- end row -->
-				<div class="col-md-12">
+				<div class="col-md-12 wow slideInLeft">
 
 					<ul id="filterOptions" class="clearfix">
 						<li class="cur"><a class="btn btn-link linear" href="#" data-group="all">All</a></li>
@@ -226,7 +227,7 @@
 
 				</div>
 				<!--end-col-->
-				<div class="col-md-12">
+				<div class="col-md-12 wow bounceInDown">
 					<div class="folio-content clearfix">
 						<div class="row">
 							<div class="container_folio clearfix gallery" id="grid">
@@ -385,7 +386,7 @@
 				<div class="row">
 					<div class="col-md-10  col-md-offset-1">
 						<div class="build title-page">
-							<h2 class="text-center">Contact Me</h2>
+							<h2 class="text-center wow slideInDown">Contact Me</h2>
 							<div class="line-title bg-primary"></div>
 						</div>
 					</div>
@@ -394,7 +395,7 @@
 				<!-- end row -->
 				<div class="row">
 					<div class="col-md-4 ">
-						<div class="build contact clearfix text-center">
+						<div class="build contact clearfix text-center wow slideInLeft">
 							<span class="fa fa-map-marker"></span>
 							<p>Poblacion, Mahinog <br />Camiguin Philipines
 								<p>
@@ -402,15 +403,15 @@
 					</div>
 					<!-- end col -->
 					<div class="col-md-4 ">
-						<div class="build contact clearfix text-center">
+						<div class="build contact clearfix text-center wow bounceIn">
 							<span class="fa fa-phone"></span>
 							<p>TM:<a href="tel:099-767-41712">099-767-41712</a></p>
-							
+
 
 						</div>
 					</div>
 					<div class="col-md-4 ">
-						<div class="build contact clearfix text-center">
+						<div class="build contact clearfix text-center wow slideInRight">
 							<span class="fa fa-envelope"></span>
 							<p>Email me: lempakz@yahoo.com</p>
 							<p>lemuel@leetdigital.com</p>
@@ -464,6 +465,10 @@
 
 
 		<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
+		<script>
+			new WOW().init();
+		</script>
 
 	</div>
 </body>
