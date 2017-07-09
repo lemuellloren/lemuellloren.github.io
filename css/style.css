@@ -323,8 +323,72 @@ div#aboutMore {
 }
 
 
-/*==================terminal ========================*/
+/*==================progress========================*/
 
+.progress {
+  height: 9px;
+  background-color: #dadfe1;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  clear: both;
+  margin: 6px 0 16px 0;
+  overflow: inherit;
+}
+
+.progress-bar {
+  position: relative;
+  transition: all 200ms linear !important;
+  -webkit-transition: all 200ms linear !important;
+  -moz-transition: all 200ms linear !important;
+  -ms-transition: all 200ms linear !important;
+  -o-transition: all 200ms linear !important;
+}
+
+.wrapp-progress {
+  position: relative;
+  padding-top: 24px;
+}
+
+.wrapp-progress p {
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+  color: #444444;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+
+.precent-value {
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  position: absolute;
+  right: -25px;
+  top: -30px;
+  height: 24px;
+  width: 50px;
+  background: #1d1d1d;
+  border-radius: 3px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.progress-bar i {
+  font-size: 24px;
+  color: #1d1d1d;
+  position: absolute;
+  right: -7px;
+  top: -16px;
+}
+
+.progress {
+  clear: both;
+}
+/* ============================================== Terminal ================================================================= */
 
 
 textarea, input, button {
@@ -421,6 +485,7 @@ textarea, input, button {
     transform: translateY(0px);
   }
 }
+
 
 
 /* ============================================== Portfolio ================================================================= */
