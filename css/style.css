@@ -122,7 +122,7 @@ img {
   padding-right: 5%;
 }
 
-#about.line {
+.main-line {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
