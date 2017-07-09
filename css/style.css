@@ -1,4 +1,5 @@
 /* Global Styles */
+
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 /*@font-face {
@@ -8,6 +9,7 @@
   url('VarelaRound-Regular.ttf') format('truetype'), 
   url('VarelaRound-Regular.svg#svgFontName') format('svg');
 }*/
+
 
 /*@font-face {
   font-family: 'Lato';
@@ -31,8 +33,7 @@ h3,
 .h3 {
   margin-top: 0px;
   margin-bottom: 0;
-  padding: 20px 0
-  font-family: 'Source Code Pro', monospace;
+  padding: 20px 0 font-family: 'Source Code Pro', monospace;
 }
 
 p,
@@ -63,7 +64,6 @@ img {
   position: relative;
 }
 
-
 .btn-clear {
   border: 4px solid;
 }
@@ -77,9 +77,10 @@ img {
 
 
 /* =============================== header ===================================== */
+
 #about mark {
   background: transparent;
-  color:#f24971;
+  color: #f24971;
 }
 
 #about.row {
@@ -97,10 +98,10 @@ img {
   border-bottom: solid 3px;
   padding-bottom: 1.5rem;
 }
+
 #about.title span {
   letter-spacing: 0.7px;
 }
-
 
 .main-header {
   display: flex;
@@ -112,7 +113,6 @@ img {
   background: #1d2127;
   color: #ffffff;
 }
-
 
 .main-introduction {
   font-size: 18px;
@@ -142,25 +142,32 @@ img {
   letter-spacing: 4px;
   opacity: 85%;
 }
+
 .line-content mark {
   letter-spacing: 6px;
 }
 
+
 /*.empty-line {
   background: linear-gradient(to bottom, #1d2127, #1D212B);
 }*/
+
 .empty-line .line-number {
   display: block;
 }
+
 .empty-line .line-number-a {
   opacity: 0.15;
 }
+
 .empty-line .line-number-b {
   opacity: 0.1;
 }
+
 .empty-line .line-number-c {
   opacity: 0.05;
 }
+
 .empty-line .line-number-d {
   opacity: 0.04;
 }
@@ -279,10 +286,12 @@ a.navbar-brand {
 
 
 /* ================================================= about us ================================================== */
+
 div#aboutMore {
-    background: linear-gradient(33deg, rgba(29, 33, 39, 0.98) 64%, #1d2127 50%);
-    -webkit-backface-visibility: hidden;
+  background: linear-gradient(33deg, rgba(29, 33, 39, 0.98) 64%, #1d2127 50%);
+  -webkit-backface-visibility: hidden;
 }
+
 .about-content p {
   font-size: 14px;
   padding-bottom: 20px;
@@ -343,7 +352,7 @@ div#aboutMore {
 
 .wrapp-progress p {
   font-size: 14px;
- font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
   color: #444444;
   font-weight: bold;
   margin: 0;
@@ -478,6 +487,8 @@ ul.container_folio li.box {
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 250ms;
 }
+
+
 
 .thumb-img:hover img {
   opacity: 0.7;
