@@ -192,7 +192,7 @@ $('.header').height(wHeight);
         }
   
         function list() {
-                terminal.append("MY SKILLS: html5, css3, less, sass, javascript, svg \n- Frameworks: bootstrap, zurb foundation, uikit, materialize \n- Others: npm, bower, gulp, codekit, font awesome, git \n- Design: photoshop, illustrator, sketch \n");
+                terminal.append("MY SKILLS: html5, css3, less, sass, javascript, svg \n- Frameworks: bootstrap, zurb foundation, uikit, \n- CMS: wordpress, kirby, \n- Others: npm, bower, gulp, codekit, git \n- Design: photoshop, illustrator, sketch \n");
         }
     
         function echo(args) {
