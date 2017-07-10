@@ -373,3 +373,5 @@ var date = new Date().toString(); date = date.substr(0, date.indexOf("GMT") - 1)
 terminal.append("Last login: " + date + "\n" + hintMessage + "\n"); displayPrompt();
 });   
     }
+
+    
