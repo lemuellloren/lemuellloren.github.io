@@ -339,7 +339,7 @@ $(document).keydown(function(e) {
                 }
         }
 });
-// terminal
+ //==================================== terminal ============================
 $(document).keypress(function(e) {
         // Make sure we get the right event
         e = e || window.event;
