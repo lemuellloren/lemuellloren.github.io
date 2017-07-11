@@ -731,6 +731,11 @@ div.link {
 
 /*=================contact====================*/
 
+#contact a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
 .main-contact {
   padding: 40px 0;
 }
