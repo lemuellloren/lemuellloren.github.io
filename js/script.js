@@ -192,7 +192,7 @@ $('.header').height(wHeight);
         }
   
         function list() {
-                terminal.append("MY SKILLS: html5, css3, less, sass, javascript, svg \n- Frameworks: bootstrap, zurb foundation, uikit, \n- CMS: wordpress, kirby \n- Others: npm, bower, gulp, codekit, git \n- Design: photoshop, illustrator, sketch \n");
+                terminal.append("MY SKILLS: html5, css3, less, sass, javascript,  \n- Css Frameworks: bootstrap, zurb foundation, uikit, \n- CMS: wordpress, kirby CMS \n- Others: npm, bower, gulp, codekit, git \n- Design: photoshop, illustrator, sketch \n");
         }
     
         function echo(args) {
@@ -364,7 +364,7 @@ $(document).keypress(function(e) {
 });
 
 // Set the window title
-title.text("urname@dvmrt: ~");
+title.text("urname@lmpkz: ~");
 
 // Get the date for our fake last-login
 var date = new Date().toString(); date = date.substr(0, date.indexOf("GMT") - 1);
