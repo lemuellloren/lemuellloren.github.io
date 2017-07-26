@@ -362,7 +362,7 @@ a.navbar-brand
 
 div#aboutMore
 {
-    background: linear-gradient(33deg, rgba(29, 33, 39, .98) 64%, #1d2127 50%);
+    background: linear-gradient(33deg, #1d2127  64%, rgba(29, 33, 39, .98)50%);
 
     -webkit-backface-visibility: hidden;
 }
@@ -624,8 +624,19 @@ button
         transform: translateY(0px);
     }
 }
+/* ============================================== Services================================================================= */
+div#myServices
+{
+    background: linear-gradient(33deg, rgba(29, 33, 39, .98) 64%, #1d2127 50%);
 
-
+    -webkit-backface-visibility: hidden;
+}
+img.img-responsive.center-block.service-icon {
+    padding-bottom: 20px;
+}
+.serviceTitle p {
+    text-align: center;
+}
 
 /* ============================================== Portfolio ================================================================= */
 
