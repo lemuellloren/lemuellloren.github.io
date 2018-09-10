@@ -1349,11 +1349,12 @@ header .top-bar {
 	top: 0;
 }
 
-/* header .logo {
+header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 25px;
+	/* margin-top: 25px; */
+	margin-top: 18px;
 	position: relative;
 }
 
@@ -1366,10 +1367,14 @@ header .logo a {
 	text-shadow: none;
 	color: transparent;
 	width: 92px;
-	height: 15px;
+	/* height: 15px; */
+	height: 30px;
 	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
-} */
+	/* background-size: 92px 15px; */
+	background-size: cover;
+
+}
+
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
