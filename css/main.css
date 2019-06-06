@@ -1561,7 +1561,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/intro-bg.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1580,7 +1580,8 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
+	/* background: #111111; */
+	background: #11111170;
 	opacity: .85;
 }
 
@@ -2469,7 +2470,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/intro-bg.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2485,7 +2486,8 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #151515;
+	/* background: #151515; */
+	background: #11111170;
 	opacity: .9;
 }
 
