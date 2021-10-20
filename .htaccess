@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^lemuel.tk [NC,OR]
-RewriteCond %{HTTP_HOST} ^lemuel.tk  [NC]
-RewriteRule ^(.*)$ https://www.lemuelpaconlloren.ml/$1 [L,R=301,NC]
